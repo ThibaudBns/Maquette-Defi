@@ -1,0 +1,38 @@
+head
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf');
+}
+
+h1
+{
+text-align: right;
+}
+
+
+h2
+
+{
+    text-align:right
+    flex-direction: right;
+}
+
+img
+{
+    float: right;   
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    width: auto;
+}
+
+h2
+{
+    color: #6E4A46;
+}
+
+
+
+
+
+
