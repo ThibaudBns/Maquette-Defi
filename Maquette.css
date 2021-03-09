@@ -1,21 +1,29 @@
-head
 
 @font-face {
     font-family:'Roboto';
-    src:url('Roboto-Regular.ttf')
+    src:url('Roboto/Roboto-Regular.ttf')}
+
+
+header /* Utilisation de la police qu'on vient de définir sur les titres */
+    {
+        font-family: 'Roboto', Arial, serif;
+    }
+nav li {
+        list-style: none;
+        padding-left: 30px;
+}
 
 h1
+
+colorblue
     {
         display: flex;
         justify-content: space-around;
     }
 
-font-size: 12px
-
 h2, h3, h4
-
 {
-    text-align:right
+    text-align:right;
     flex-direction: right;
 }
 
@@ -32,6 +40,13 @@ h2
     color: #6E4A46;
 }
 
+#parent
+{ 
+
+}
+
+.colorblue
+{color:blue}
 
 
 
