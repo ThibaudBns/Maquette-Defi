@@ -1,15 +1,16 @@
 head
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Roboto-Regular.ttf');
-}
+    font-family:'Roboto';
+    src:url('Roboto-Regular.ttf')
 
 h1
-{
-text-align: right;
-}
+    {
+        display: flex;
+        justify-content: space-around;
+    }
 
+font-size: 12px
 
 h2
 
