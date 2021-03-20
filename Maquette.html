@@ -4,67 +4,102 @@
         <meta charset="UTF-8">
         <title>Mon Petit Graphisme</title>
         <link rel="stylesheet" href="Maquette.css"> 
+
     </head>
 
     <body>
-     <header>
-        <img src="images/logo_long.png" class="border purple"/>
+    <div id="container">
+    <header class="border">
+    <img src="images/logo_long.png" class="border purple"/>
+    <nav class="border purple">
+          <ul>
+                <li>Accueil</li>
+                <li>Contact</li>
+        </ul>
+        </nav>
+    </header>
 
-        <nav>
-            <ul>
+    <main class="border">
+        <div id="banniere" class="border purple">
+            <div id="banniereImg">
+                <img id="banniereImg" src="Images/background_image.jpg" alt="Bannière">
+            </div>
+            <div id="banniereContent">
+                <img id="banniereContentLogo" src="Images/logo_long.png" alt="Logo de l'agence">
+                <h1>Agence de graphisme</h1>
+            </div>
+        </div>
+    
+        <section id="presentation" class="border purple">
+            <div id="presentationIntroduction" class="border blue">
+                <p>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.</p>
+            </div>
+            <section id="presentationSkills" class="border blue">
+                <article class="border green">
+                    <img src="Images/graphic-design.png" alt="icone web design" class="border white">
+                    <h2 class="border red">Graphisme</h2>
+                    <p class="border red">Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.</p>
+                </article>
+               
+                <article class="border green">
+                    <img src="Images/strategie.png" alt="icone web design" class="border white">
+                    <h2 class="border red">Stratégie</h2>
+                    <p class="border red">Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos objectifs et nous nous adaptons à vos besoins.</p>
+                </article>
+                <article class="border green">
+                    <img src="Images/illustrations.png" alt="icone web design" class="border white">
+                    <h2 class="border red">Illustrations</h2>
+                    <p class="border red">Nos graphistes vous proposerons des illustrations 100 % originales.</p>
+                </article>
+    </section>
+    <section id="temoignage" class="border blue">
+        <article>
+            <p class="temoignageContent border green">"Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont à l’écoute des besoins et m’ont permis de renouveler complètement la carte de mon restaurant."</p>
+            <p class="temoignageAuthor border green">Amandine, restauratrice</p>
+        </article>
+    </section>
+</section>
+</main>
+
+<footer class="border">
+    <div id="copyright" class="border purple">
+        <h2>Mon petit graphisme - Agence de graphisme basée à Paris</h2>
+    </div>
+    
+    <span id="socialNetwork" class="border purple">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+    </span>
+
+    <div id="footerContent" class="border purple">
+        <div class="footerColumn border blue">
+            <h3 class="border green">Accès rapides</h3>
+            <ul class="border green">
                 <li>Accueil</li>
                 <li>Contact</li>
             </ul>
-        </nav>
-
-    </header>
-
-    <section>
-
-        <div id="parent">
-            <img id="images/backgroung_image.jpg" class="superpose" src="..." alt="..." />
-            <img id="img_2" class="superpose" src="..." alt="..." />
-            <img id="img_3" class="superpose" src="..." alt="..." />
         </div>
+        <div class="footerColumn border blue">
+            <h3 class="border green">A propos</h3>
+            <ul class="border green">
+                <li>Données personnelles</li>
+                <li>Mentions légales</li>
+                <li>Cookies</li>
+            </ul>
+            </ul>
+        </div>
+        <div class="footerColumn border blue">
+            <h3 class="border green">Coordonnées</h3>
+            <ul class="border green">
+                <p>10 Quai de la Charente<br>
+                75019 Paris<br>
+                01 23 45 67 89</p>
+            </ul>
+        </div>
+    </div>
 
-
-        <p>
-            <img src="images/background_image.jpg"/>
-
-            <img src="images/logo_long.png"/>
-            
-
-        <h1 class="colorblue">Agence de Graphisme</h1>
-
-        </p>
-
-    </section>
-
-
-
-    <section>
-
-        <h2>Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs </h2>
-
-        <aside> 
-           <div> 
-            <img src="images/graphic-design.png" >
-            <p>Graphisme</p>
-            <p>Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous réalisons des visuels dont vous serez fiers.
-            </p>
-             </div>
-
-        </aside>
-            <img src="images/strategie.png" >
-
-        <aside>
-            <img src="images/illustrations.png" >
-
-        </aside>
-
-    </section>
-
-
-
+		</footer>
+    </div>
   </body>
 </html>
